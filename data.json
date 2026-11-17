@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "version": 1,
+    "updatedAt": "2026-11-17T00:00:00.000Z"
+  },
+  "site": {
+    "title": "一水千田",
+    "logoText": "一水千田",
+    "announcement": {
+      "enabled": true,
+      "text": "桌遊預購 4/10～4/24 開放登記，早鳥 850 元",
+      "link": "#boardgames"
+    },
+    "nav": [
+      {
+        "label": "首頁",
+        "target": "#home"
+      },
+      {
+        "label": "大事記",
+        "target": "#timeline"
+      },
+      {
+        "label": "小遊戲",
+        "target": "#games"
+      },
+      {
+        "label": "桌遊介紹",
+        "target": "#boardgames"
+      },
+      {
+        "label": "聯絡我們",
+        "target": "#contact"
+      }
+    ],
+    "hero": {
+      "eyebrow": "桃園大圳水文化",
+      "title": "一水千田",
+      "subtitle": "跟著一滴水，從大漢溪走進桃園台地的千塘之鄉。",
+      "ctaLabel": "開始玩小遊戲",
+      "ctaTarget": "#games",
+      "image": ""
+    },
+    "contact": {
+      "team": "輔仁大學 藝術與文化創意學士學位學程 第十四屆 第四組",
+      "email": "yourteam@example.com",
+      "instagram": "https://www.instagram.com/",
+      "facebook": "",
+      "note": "合作、試玩會與預購問題，歡迎來信或私訊。"
+    },
+    "footer": "資料來源：農田水利署桃園管理處、《季刊大林》〈八田與一〉、大阪大學地理學教室。內容持續查證更新。",
+    "description": "《一水千田》：用桌遊和小遊戲，認識桃園大圳與千塘之鄉的水文化。"
+  },
+  "home": {
+    "bento": [
+      {
+        "id": "b1",
+        "size": "lg",
+        "kicker": "為什麼要建",
+        "title": "台地缺水，收成看天",
+        "text": "桃園台地留不住水，農民挖埤塘存雨水，田多半是「看天田」。引大漢溪的水上台地，才有穩定的兩期稻作。",
+        "stat": "",
+        "statLabel": "",
+        "target": "#timeline",
+        "image": ""
+      },
+      {
+        "id": "b2",
+        "size": "sm",
+        "kicker": "開工",
+        "title": "",
+        "text": "",
+        "stat": "1916",
+        "statLabel": "年 11 月開工",
+        "target": "",
+        "image": ""
+      },
+      {
+        "id": "b3",
+        "size": "sm",
+        "kicker": "通水",
+        "title": "",
+        "text": "",
+        "stat": "1924",
+        "statLabel": "年 5 月 26 日通水",
+        "target": "",
+        "image": ""
+      },
+      {
+        "id": "b4",
+        "size": "wide",
+        "kicker": "埤塘",
+        "title": "雨季存水，乾季放水",
+        "text": "既有的埤塘被整編成貯水池、接上支線，替大圳調節水量。",
+        "stat": "231",
+        "statLabel": "口貯水池",
+        "target": "#games",
+        "image": ""
+      },
+      {
+        "id": "b5",
+        "size": "sm",
+        "kicker": "灌溉",
+        "title": "",
+        "text": "",
+        "stat": "2.2 萬",
+        "statLabel": "公頃農田",
+        "target": "",
+        "image": ""
+      },
+      {
+        "id": "b6",
+        "size": "sm",
+        "kicker": "桌遊 × AR",
+        "title": "掃一下板塊",
+        "text": "歷史人物站上板塊，給你一句提示。",
+        "stat": "",
+        "statLabel": "",
+        "target": "#boardgames",
+        "image": ""
+      }
+    ],
+    "timelineTitle": "桃園大圳大事記",
+    "timeline": [
+      {
+        "id": "t1",
+        "year": "1916",
+        "text": "臺灣總督府為增加糧食生產，桃園大圳官設工程開工。"
+      },
+      {
+        "id": "t2",
+        "year": "1919",
+        "text": "成立公共埤圳桃園大圳組合，負責貯水池與給水路等工程。"
+      },
+      {
+        "id": "t3",
+        "year": "1924",
+        "text": "5 月 26 日，導水路及主要幹支分線通水。"
+      },
+      {
+        "id": "t4",
+        "year": "1928",
+        "text": "整體灌溉系統完成，支幹線內貯水池整理為 231 口。"
+      },
+      {
+        "id": "t5",
+        "year": "1964",
+        "text": "石門水庫完成，桃園台地的灌溉水源更加充足。"
+      },
+      {
+        "id": "t6",
+        "year": "至今",
+        "text": "仍有一部分的水圳在持續使用中，服務當地居民。"
+      }
+    ]
+  },
+  "games": {
+    "title": "互動小遊戲",
+    "intro": "兩個三分鐘就能玩完的小遊戲，邊玩邊認識大圳。",
+    "quiz": {
+      "enabled": true,
+      "title": "大圳快問快答",
+      "description": "限時回答大圳與埤塘的問題，答得越快分數越高。",
+      "rules": "每題四選一，時間內作答。答對得分，剩下的秒數會變成加分。",
+      "questionsPerRound": 5,
+      "secondsPerQuestion": 15,
+      "pointsCorrect": 100,
+      "timeBonus": 5,
+      "defaultDifficulty": "normal",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "簡單",
+          "maxLevel": 1,
+          "timeFactor": 1.3,
+          "scoreFactor": 1
+        },
+        {
+          "id": "normal",
+          "label": "普通",
+          "maxLevel": 2,
+          "timeFactor": 1,
+          "scoreFactor": 1.2
+        },
+        {
+          "id": "hard",
+          "label": "困難",
+          "maxLevel": 3,
+          "timeFactor": 0.7,
+          "scoreFactor": 1.5
+        }
+      ],
+      "ranks": [
+        {
+          "min": 0,
+          "label": "見習巡水員"
+        },
+        {
+          "min": 50,
+          "label": "埤塘管理員"
+        },
+        {
+          "min": 80,
+          "label": "大圳技師"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "桃園大圳是哪一年開工的？",
+          "options": [
+            "1895 年",
+            "1916 年",
+            "1930 年",
+            "1945 年"
+          ],
+          "answer": 1,
+          "explain": "1916 年 11 月開工。",
+          "level": 1
+        },
+        {
+          "id": "q2",
+          "q": "桃園大圳在哪一年通水？",
+          "options": [
+            "1916 年",
+            "1920 年",
+            "1924 年",
+            "1964 年"
+          ],
+          "answer": 2,
+          "explain": "1924 年 5 月 26 日通水。",
+          "level": 1
+        },
+        {
+          "id": "q3",
+          "q": "桃園大圳的水取自哪一條溪？",
+          "options": [
+            "大漢溪",
+            "濁水溪",
+            "基隆河",
+            "頭前溪"
+          ],
+          "answer": 0,
+          "explain": "在大漢溪上游的石門設取水口。",
+          "level": 1
+        },
+        {
+          "id": "q4",
+          "q": "沒有穩定水源、收成全看下不下雨的田，叫什麼？",
+          "options": [
+            "梯田",
+            "看天田",
+            "水田",
+            "鹽田"
+          ],
+          "answer": 1,
+          "explain": "大圳通水前，台地上多是看天田。",
+          "level": 1
+        },
+        {
+          "id": "q5",
+          "q": "埤塘在大圳灌溉系統裡負責什麼？",
+          "options": [
+            "養魚",
+            "發電",
+            "雨季存水、乾季放水",
+            "運送木材"
+          ],
+          "answer": 2,
+          "explain": "埤塘替大圳調節水量，乾季才有水灌田。",
+          "level": 1
+        },
+        {
+          "id": "q6",
+          "q": "貯水池整理完成後，一共有幾口？",
+          "options": [
+            "31 口",
+            "131 口",
+            "231 口",
+            "2,310 口"
+          ],
+          "answer": 2,
+          "explain": "1928 年整體灌溉系統完成，貯水池整理為 231 口。",
+          "level": 2
+        },
+        {
+          "id": "q7",
+          "q": "桃園大圳灌溉的農田大約有多大？",
+          "options": [
+            "約 2,200 公頃",
+            "約 2.2 萬公頃",
+            "約 22 萬公頃",
+            "約 220 萬公頃"
+          ],
+          "answer": 1,
+          "explain": "約 2.2 萬公頃，讓台地可以種兩期稻。",
+          "level": 2
+        },
+        {
+          "id": "q8",
+          "q": "1919 年成立、協助農民興建貯水池與給水路的組織是？",
+          "options": [
+            "農會",
+            "大圳的水利組合",
+            "糖業公司",
+            "鐵道部"
+          ],
+          "answer": 1,
+          "explain": "1919 年成立公共埤圳桃園大圳組合。",
+          "level": 3
+        },
+        {
+          "id": "q9",
+          "q": "負責桃園大圳事前調查與測量的技師是誰？",
+          "options": [
+            "八田與一",
+            "後藤新平",
+            "磯永吉",
+            "新渡戶稻造"
+          ],
+          "answer": 0,
+          "explain": "八田與一負責調查測量，狩野三郎等人負責設計施工。",
+          "level": 3
+        }
+      ]
+    },
+    "pond": {
+      "enabled": true,
+      "title": "埤塘管理員",
+      "description": "雨季把水存起來，乾季放水灌田。別讓埤塘滿出來，也別讓田沒水。",
+      "rules": "每一季決定要放多少水。放的水達到田的需水量才會豐收；放不夠等於白流，放太多是浪費。水不夠的那一季，不如留著等下一季。",
+      "rounds": 8,
+      "pointsHarvest": 100,
+      "pointsWaste": 5,
+      "pointsOverflow": 3,
+      "defaultDifficulty": "normal",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "簡單",
+          "capacity": 120,
+          "startWater": 60,
+          "demand": 30,
+          "rainMin": 50,
+          "rainMax": 70,
+          "dryMin": 10,
+          "dryMax": 20
+        },
+        {
+          "id": "normal",
+          "label": "普通",
+          "capacity": 80,
+          "startWater": 30,
+          "demand": 40,
+          "rainMin": 40,
+          "rainMax": 70,
+          "dryMin": 0,
+          "dryMax": 15
+        },
+        {
+          "id": "hard",
+          "label": "困難",
+          "capacity": 70,
+          "startWater": 20,
+          "demand": 42,
+          "rainMin": 35,
+          "rainMax": 70,
+          "dryMin": 0,
+          "dryMax": 10
+        }
+      ],
+      "ranks": [
+        {
+          "min": 0,
+          "label": "看天吃飯"
+        },
+        {
+          "min": 50,
+          "label": "稱職的管理員"
+        },
+        {
+          "min": 85,
+          "label": "蓄豐濟枯高手"
+        }
+      ]
+    }
+  },
+  "boardgames": {
+    "title": "桌遊介紹",
+    "intro": "《一水千田》是一款半合作的策略桌遊：大家一起蓋好取水口、導水隧道和水圳，同時經營自己的田。規則定案前，以下內容為示意。",
+    "radarLabels": [
+      "策略",
+      "運氣",
+      "互動",
+      "好上手",
+      "歷史含量"
+    ],
+    "items": [
+      {
+        "id": "g1",
+        "name": "一水千田・標準局",
+        "subtitle": "合力蓋大圳，各自顧好田",
+        "tags": [
+          "半合作",
+          "資源交易",
+          "板塊拼放",
+          "公共建設"
+        ],
+        "playersMin": 2,
+        "playersMax": 4,
+        "timeMin": 45,
+        "timeMax": 60,
+        "age": "10+",
+        "summary": "玩家要一起蓋好取水口、導水隧道和水圳，同時經營自己的田地，體驗桃園大圳如何改變台地的灌溉。大圳通水之後，看天田才能翻面成為水田。",
+        "radar": [
+          4,
+          3,
+          5,
+          3,
+          5
+        ],
+        "traps": [
+          "只顧自己的田，不投入公共建設：大圳蓋不完，所有人一起輸",
+          "乾季來之前沒在埤塘存水",
+          "太早把手上的資源換光，遇到事件卡沒得應付"
+        ],
+        "tips": [
+          "前幾回合先合力完成取水口和導水隧道，通水後看天田才能翻成水田",
+          "交易前先問隊友缺什麼，換到的資源才用得上",
+          "埤塘留一點水，應付「久旱」事件"
+        ],
+        "image": "",
+        "featured": true,
+        "contents": [
+          "六角板塊 19 片：埤塘 8、看天田／水田 4、山林 3、紅土 3、取水口 1",
+          "卡牌 81 張：資源卡、歷史事件卡、公共發展卡、個人發展卡、人物角色卡",
+          "水滴與方塊指示物、一張快速規則"
+        ]
+      },
+      {
+        "id": "g2",
+        "name": "快速體驗局",
+        "subtitle": "15 分鐘認識核心玩法",
+        "tags": [
+          "入門",
+          "擺攤試玩"
+        ],
+        "playersMin": 2,
+        "playersMax": 4,
+        "timeMin": 15,
+        "timeMax": 15,
+        "age": "8+",
+        "summary": "只玩一段公共建設加一次乾季，適合試玩會和市集，坐下來就能開始。",
+        "radar": [
+          2,
+          3,
+          4,
+          5,
+          3
+        ],
+        "traps": [
+          "時間短，別花太久在交易上"
+        ],
+        "tips": [
+          "先看手上的角色能力，再決定要蓋還是要存水"
+        ],
+        "image": "",
+        "featured": false,
+        "contents": []
+      },
+      {
+        "id": "g3",
+        "name": "AR 提示玩法",
+        "subtitle": "掃板塊，歷史人物給提示",
+        "tags": [
+          "AR",
+          "新手友善"
+        ],
+        "playersMin": 2,
+        "playersMax": 4,
+        "timeMin": 45,
+        "timeMax": 60,
+        "age": "10+",
+        "summary": "不確定下一步時，用手機掃一下板塊，歷史人物會站上板塊說一句提示。不掃也能完整遊玩。",
+        "radar": [
+          4,
+          3,
+          5,
+          4,
+          5
+        ],
+        "traps": [
+          "提示只是提醒，不會替你做決定"
+        ],
+        "tips": [
+          "有興趣的板塊按收藏，玩完再到網站看它的真實故事"
+        ],
+        "image": "",
+        "featured": false,
+        "contents": []
+      }
+    ]
+  }
+}

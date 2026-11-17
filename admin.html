@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0b1622">
+  <title>一水千田｜後台管理</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin">
+  <div class="shell">
+    <!-- 左側：三個管理模組＋發布設定 -->
+    <aside class="side glass">
+      <p class="side-logo">一水千田<small>後台管理</small></p>
+      <nav class="side-nav" aria-label="管理模組">
+        <button type="button" data-view="site"><b>A</b><span>網站內容</span></button>
+        <button type="button" data-view="games"><b>B</b><span>小遊戲</span></button>
+        <button type="button" data-view="boardgames"><b>C</b><span>桌遊百科</span></button>
+        <button type="button" data-view="publish"><b>⚙</b><span>發布設定</span></button>
+      </nav>
+      <a class="side-link" href="index.html" target="_blank" rel="noopener">打開正式網站 ↗</a>
+    </aside>
+
+    <div class="main">
+      <header class="top glass">
+        <div>
+          <h1 id="view-title">載入中…</h1>
+          <p id="status" class="status" aria-live="polite"></p>
+        </div>
+        <div class="top-actions">
+          <button class="btn" type="button" id="btn-preview">預覽</button>
+          <button class="btn primary" type="button" id="btn-publish">發布</button>
+        </div>
+      </header>
+      <main id="view"></main>
+    </div>
+  </div>
+
+  <div id="toasts" aria-live="polite"></div>
+  <dialog id="ask"></dialog>
+  <input type="file" id="file-image" accept="image/png,image/jpeg,image/webp" hidden>
+  <input type="file" id="file-json" accept="application/json,.json" hidden>
+
+  <script src="js/store.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
